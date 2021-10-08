@@ -1,0 +1,14 @@
+* {
+  background-color: aqua;
+}
+
+.mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div label{
+  margin-right: 10px;
+  margin-left: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Simple cash Counter">
+  <link rel="stylesheet" href="./cssFiles/cssdesign.css">
+  <title>Cash Counter</title>
+</head>
+<body>
+  <header>
+    <h1>Cash Counter</h1>
+  </header>
+    <div class="mainContainer">
+    <div class="inputAmount">
+      <label for="bill">Bill Value :</label>
+      <input type="number" name="BillValue" id="givenBill">
+    </div>
+    <div class="BillPaidValue">
+      <label for="BillPaid">Paid Amount :</label>
+      <input type="number" name="BillPaid" id="BillPaidd">
+    </div>
+    <div class="btn">
+      <button id="btn">Counter Button</button>
+    </div>
+  </div>
+  <p id="error-message" class="error-message"></p>
+        <div id="success-container" class="success-container">
+          <h3 class="success-message" id="success-message"></h3>
+  <div class="Counter-header">
+    <p class="Counter-value">Value</p>
+    <p class="Counter-count">Count</p>
+  </div>
+  <div id="resultShow">
+
+  </div>
+    <script src="./jsFiles/jsCode.js"></script>
+</body>
+</html>
